@@ -17,43 +17,59 @@ Expense Tracker is a simple Java command-line application that helps you manage 
 - Jackson Core Databind 2.18.3
 - Jackson Datatype Jsr310 2.18.2
 
+## Installation
+
+1. Clone the repository:
+   ```sh
+    git clone https://github.com/Abdulrahim-M/expense-tracker.git
+    expense-tracker/Windows
+   ```
+2. Execute the program:
+```sh
+  cd ET <Command> <Option>
+```
+
 ## Usage
 ### Add an Expense
 ```sh
-java Application add --description "Electricity" --amount 500 --category Utilities
+ET add --description "Electricity" --amount 500 --category Utilities
 ```
 ### Update an Expense
 ```sh
-java Application update --id 1 --description "Electricity Bill" --amount 550
+ET update --id 1 --description "Electricity Bill" --amount 550
 ```
 ### Delete an Expense
 ```sh
-java Application delete --id 1
+ET delete --id 1
 ```
 ### List Expenses
 ```sh
-java Application list --year 2021 --month 9
+ET list --year 2021 --month 9
 ```
 ### Summarize Expenses
 ```sh
-java Application summarize --year 2023 --month 12
+ET summarize --year 2023 --month 12
 ```
 ### Import Expenses
 ```sh
-java Application import --json expenses.json
+ET import --json expenses.json
 ```
 ### Export Expenses
 ```sh
-java Application export --csv expenses.csv
+ET export --csv expenses.csv
 ```
 ### Set Monthly Budget
 ```sh
-java Application budget --amount 1000
+ET budget --amount 1000
 ```
 these are just examples, you can use the application with different options and values.
+### And don't forget the most important:
+```sh
+ET help <Command>
+```
 
-## Project Roadmap
-For more details on the project roadmap, visit [Expense Tracker Roadmap](https://roadmap.sh/projects/expense-tracker).
+## Roadmap test Project
+This project was inspired from the [Expense Tracker](https://roadmap.sh/projects/expense-tracker) project in the [Java roadmap](https://roadmap.sh/java) projects section at [roadmap.sh](https://roadmap.sh/).
 
 ## License
 This project is licensed under the MIT License.
