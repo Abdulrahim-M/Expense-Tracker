@@ -52,5 +52,8 @@ java Application budget --amount 1000
 ```
 these are just examples, you can use the application with different options and values.
 
+## Project Roadmap
+For more details on the project roadmap, visit [Expense Tracker Roadmap](https://roadmap.sh/projects/expense-tracker).
+
 ## License
 This project is licensed under the MIT License.
