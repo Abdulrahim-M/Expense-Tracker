@@ -14,7 +14,8 @@ Expense Tracker is a simple Java command-line application that helps you manage 
 - Set a monthly budget and get notified if exceeded.
 
 ## My workset and Dependencies used
-- Java 23.0.2
+- Build System: IntelliJ
+- Java version: 23.0.2
 - Jackson Core Databind 2.18.3
 - Jackson Datatype Jsr310 2.18.2
 
