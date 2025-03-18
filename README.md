@@ -28,7 +28,7 @@ Expense Tracker is a simple Java command-line application that helps you manage 
 ```
 2. Execute the program:
 ```sh
-  cd ET <Command> <Option>
+  ET <Command> <Option>
 ```
 
 ## Usage
