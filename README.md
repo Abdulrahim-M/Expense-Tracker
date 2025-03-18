@@ -24,7 +24,7 @@ Expense Tracker is a simple Java command-line application that helps you manage 
 1. Clone the repository:
 ```sh
   git clone https://github.com/Abdulrahim-M/expense-tracker.git
-  expense-tracker/Windows
+  cd expense-tracker/Windows
 ```
 2. Execute the program:
 ```sh
